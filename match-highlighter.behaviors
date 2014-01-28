@@ -2,5 +2,7 @@
            (:lt.objs.plugins/load-js ["support/CodeMirror/addon/search/match-highlighter.js"
                                       "match-highlighter_compiled.js"])]
      :editor.clojure [(:lt.plugins.match-highlighter/token-pattern "[\\w\\-\\.\\/]")]
+     :editor.clj [(:lt.plugins.match-highlighter/token-pattern "[\\w\\-\\.\\/]")]
+     :editor.cljs [(:lt.plugins.match-highlighter/token-pattern "[\\w\\-\\.\\/]")]
      :editor [(:lt.plugins.match-highlighter/token-pattern "\\w")
               :lt.plugins.match-highlighter/enable]}}
