@@ -32,6 +32,7 @@
           :triggers #{:object.instant}
           :type :user
           :desc "Editor: Set match highlighter token pattern"
+          :exclusive [::token-pattern]
           :params [{:label "pattern"
                     :example "\\w"
                     :type :clj}]
