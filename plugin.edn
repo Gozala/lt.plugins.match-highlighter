@@ -2,5 +2,5 @@
  :author "Irakli Gozalishvili"
  :version "0.0.2"
  :source "https://github.com/Gozala/lt.plugins.match-highlighter"
- :desc "Light Table plugin for highlighting matcking tokens"
+ :desc "Light Table plugin for highlighting matching tokens"
  :behaviors "match-highlighter.behaviors"}
