@@ -1,7 +1,7 @@
 {:+ {:app [(:lt.objs.plugins/load-css "resource/match-highlighter.css")
            (:lt.objs.plugins/load-js ["support/CodeMirror/addon/search/match-highlighter.js"
-                                      "match-highlighter_compiled.js"])]
-     :lispy #{(:lt.plugins.match-highlighter/token-pattern "^[\\!\\?\\:\\#\\w\\-\\.\\/]$")}
+                                      "./match-highlighter_compiled.js"])]
+     :lispy #{(:lt.plugins.match-highlighter/token-pattern "[\\w\\+\\-\\!\\?\\.\\:\\&\\*]")}
      :editor.clojure #{(:lt.object/add-tag :lispy)}
      :editor.clj #{(:lt.object/add-tag :lispy)}
      :editor.cljs #{(:lt.object/add-tag :lispy)}
